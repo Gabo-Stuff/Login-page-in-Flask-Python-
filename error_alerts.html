@@ -1,0 +1,12 @@
+<!-- this html file is an extension from the "home.html" file, adding a block of content -->
+{% extends "home.html" %}
+{% block content %}
+<!-- executes a window alert on load, with the message taked from a context variable -->
+<script>
+    $(document).ready(function(){
+      alert("{{ error_message }}");
+    });
+</script>
+
+{% endblock content %}
+
