@@ -44,7 +44,7 @@ def check_credentials(user, password):
     mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "sneiver1"
+    password = "password"
     )
 
     # set the cursor for query
