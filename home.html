@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <!-- link the CSS file and the jQuery framework -->
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'style.css') }}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+    <title>Home</title>
+</head>
+<body>
+    <div class="div1">
+
+        <h1>HOME</h1><br>
+        <!-- form tag which executes an HTTP POST method, sending the inputs info to an specific route("/") -->
+        <form action = "/" method = "post" class = input_login>
+            <p>Name:</p>
+            <p><input type = "text" name = "login_name"/></p>
+            <p>Password:</p>
+            <p><input type = "text" name = "login_password"/></p>
+            <p><input type = "submit" value="SUBMIT"/></p>
+        </form>
+
+    </div>
+    <!-- locate where the block contents go to display(block content setting in "error_alerts.html") -->
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
+
