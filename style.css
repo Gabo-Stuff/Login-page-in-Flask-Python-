@@ -1,0 +1,16 @@
+.div1 {
+    border: 15px solid rgb(32, 179, 32);
+    width: 15%;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(236, 161, 134);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    box-sizing:border-box;
+}
