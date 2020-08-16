@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link the CSS file -->
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'style.css') }}">
+
+    <title>My account</title>
+</head>
+<body>
+    <div class="div1">
+        <!-- just displaying some info, showing the login was successful -->
+        <center><h1>WELCOME</h1></center>
+        <br>
+        <h3>Profile's Info:</h3>
+        <p>User: {{ user }}</p> 
+        <p>IP: {{ user_ip }}</p> 
+        
+    </div>
+</body>
+</html>
