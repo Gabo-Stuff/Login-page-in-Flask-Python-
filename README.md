@@ -3,10 +3,10 @@ The code runs a local server made in Python with Flask, which connects to a MySQ
 
 file tree:
 
-static(folder)
+static (folder)
   - style.css
   
-templates(folder)
+templates (folder)
   - home.html
   - welcome.html
   - error_alerts.html
